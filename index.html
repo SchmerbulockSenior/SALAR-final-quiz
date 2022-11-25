@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" type="logo/icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title> Web </title>
+</head>
+<body>
+
+    <div class="navbar" id="mymenu">
+        <div class="logo">
+            <!-- url sa image -->
+        </div>
+
+        <div class="menu">
+            <ul>   
+                <li><a href="#section-home"> Home </a></li>
+                <li><a href="#section-elem"> Elementary </a></li>
+                <li><a href="#section-jhs"> Junior Highschool </a></li>
+                <li><a href="#section-shs"> Senior Highschool </a></li>
+                <li><a href="#section-about"> Hobbies </a></li>
+                <li><a href="#section-contact" id="contact-btn"> Contact </a></li>
+
+            </ul>     
+        </div>
+    </div>
+
+<div class="container" id="section-home">
+    <div class="header-row">
+        <div class="column">
+            <h1 class="main-heading">Hi, I'm <br>Allana Felize</br></h1>
+            <h4 class="sub-heading">Web Designer & Freelancer</h4>
+            <span class="header-btn">
+                <a href="#">Contact Me</a>
+            </span>
+        </div>
+        <div class="column">
+            <img src="home-pic.jpg" class="header-img"></div>
+        </div>
+    </div>
+</div>
+
+    <div class="elem-row" id="section-elem">
+            <h1 class="elemh1"> ELEMENTARY </h1>
+            <div class="elem">
+                <img src="elem.jpg">
+            </div>
+        <br>
+            <p class="elemp">
+            
+                Time flies by so quickly. Thinking back, my elementary journey was like a movie, with a lot of things happening.
+                Elementary is six years of growing up and is presumably a period in your life when you explore and make a lot of peers.
+
+            </p>
+    </div>
+
+    <div class="jhs-row" id="section-jhs">
+        <br><h1 class="jhsh1"> JUNIOR HIGHSCHOOL </h1>
+        <div class="jhs">
+            <img src="jhs.jpg">
+        </div>
+        <br>
+            <p class="jhsp">
+                
+                Everything begins in high school; your transformation from a socially disorganized kid to a self - assured teen 
+                throughout this phase of your education is brimming with exhilarating opportunities. High school is typically where 
+                lifetime reputations and images are formed.
+
+            </p>
+    </div>
+
+    <div class="shs-row" id="section-shs">
+        <br>
+        <h1 class="shsh1"> SENIOR HIGHSCHOOL </h1>
+        <div class="shs"> 
+            <img src="shs.jpg">
+        </div>
+            <p class="shsp">
+            
+                Being a senior high school student implies having the ability to deal with and overcome the quintessential 
+                difficulties and barriers that a typical student would experience.
+
+            </p>
+    </div>
+
+    <div class="about-row" id="section-about">
+        <br>
+        <h1 class="abouth1"> My Hobbies </h1>
+        <div class="about">
+            <img src="pic-2.jpg">
+        </div>
+            <p class="aboutp"> 
+                Hobbies play a significant role in our daily life. We rarely have time for ourselves in today's fast-paced and 
+                competitive environment. Our timeframe becomes very boring and tiresome over time. For this reason we need to 
+                engage in something in-between in order to keep our minds energized and new.
+            </p>
+    </div>
+
+    <div class="contact-row" id="section-contact">
+        <h2 class="contacth1"> For more info contact: </h2>
+
+        <p class="contactp"> <u> 09472562338 </u> </p>
+
+            <div class="contactdiv">
+                
+                <a class="social-icons" href="https://www.facebook.com/loovejooy" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+
+                <a class="social-icons" href="https://instagram.com/haepi_lava?igshid=YmMyMTA2M2Y=" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+
+                <a class="social-icons" href="https://twitter.com/103002_phantom?t=wj20WwslvlQ7_3k9QNzr4Q&s=09" target="_blank">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+
+                <a class="social-icons" href="https://www.youtube.com/channel/UCbCyFCpyQYQLEWswQI5WJFg" target="_blank">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+                
+            </div>
+    
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div>
+    
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("mymenu");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/**-- NAVBAR --**/
+.navbar {
+    padding: 8px;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    background-color: #282828;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 10px 50px 10px 50px;
+    margin: 0;
+    text-align: right;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    padding-right: 60px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+}
+
+.menu a:hover{
+    color: #EAB543;
+}
+
+.menu a:active{
+    color: #fdcb6e;
+}
+
+/**navbar button**/
+#contact-btn{
+    border: solid #fdcb6e;
+    padding: 10px 50px 10px 50px;
+    border-radius: 100px;
+    color: #fdcb6e;
+}
+
+#contact-btn:hover{
+    background-color: #fdcb6e;
+    padding: 10px 50px 10px 50px;
+    border-radius: 100px;
+    color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/** -- END -- **/
+
+/**header column-1**/
+.header-row{
+    height: 100%;
+    min-height: 460px;
+    width: auto;
+    padding: 25px 50px 25px 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.container {
+    background-image: url(https://i.pinimg.com/originals/b2/2a/a2/b22aa22b2f3f55b6468361158d52e2e7.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.column{
+    padding: 30px;
+}
+
+.header-btn{
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px 50px 10px 50px;
+}
+
+.header-btn a{
+
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #282828;
+    text-align: center;
+
+}
+
+.sub-heading {
+    line-height: 1;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.main-heading {
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+}
+/**---- end ------ **/
+
+/**-- header column-2 --**/
+.header-img{
+    padding: 100px 50px 100px 50px;
+    display: block;
+    width: 450px;
+    height: 300px;
+    border-radius: 1550px;
+}
+/** ----- end ----- **/
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+h4{
+    color: white;
+    font-size: 30px;
+    line-height: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+/* for elementary html */
+
+.elemh1 {
+    color: #282828;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.elem img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    height: 350px;
+}
+
+.elemp {
+    text-align: center;
+    color: #636e72;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Poppins';
+}
+
+.elem-row {
+    height: 100%;
+    min-height: 460px;
+    width: auto;
+    padding: 25px 50px 25px 50px;
+    display: grid;
+}
+
+.section-elem {
+    height: 100%;
+    min-height: 460px;
+    width: auto;
+    padding: 25px 50px 25px 50px;
+    background-color: #fdcb6e;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+div {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/* for junior highschool html */
+
+.jhsh1 {
+    color: #282828;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.jhs img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    height: 300px;
+}
+
+.jhsp {
+    text-align: center;
+    color: #636e72;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Poppins';
+}
+
+.jhs-row {
+    background-color: #e6e6e6;
+    height: 100%;
+    min-height: 460px;
+    width: auto;
+    padding: 25px 50px 25px 50px;
+    display: grid;
+}
+
+/* for senior highschool html */
+
+.shsh1 {
+    color: #282828;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.shs img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    height: 320px;
+}
+
+.shsp {
+    text-align: center;
+    color: #636e72;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Poppins';
+}
+
+.shs-row {
+    height: 100%;
+    min-height: 460px;
+    width: auto;
+    padding: 25px 50px 25px 50px;
+    display: grid;
+}
+
+/* for about html */
+
+.abouth1 {
+    color: #282828;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    height: 300px;
+}
+
+.aboutp {
+    text-align: center;
+    color: #636e72;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Poppins';
+}
+
+.about-row {
+    height: 100%;
+    min-height: 460px;
+    width: auto;
+    padding: 25px 50px 25px 50px;
+    display: grid;
+}
+
+/* for contact html */
+
+.contacth2 {
+    color: #282828;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contactp {
+    text-align: center;
+    color: #636e72;
+    font-family: 'Poppins';
+}
+
+.contact-row {
+    background-color: #e6e6e6;
+    height: 100%;
+    width: auto;
+    display: grid;
+}
+
+.contactdiv {
+    text-align: center;
+}
+
+.social-icons {
+    color: #aaaaaa;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons:hover {
+    color: #40407a;
+}
+
+/** sections **/
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  #section1 {
+    height: 600px;
+    background-image: url(https://i.pinimg.com/originals/c9/42/66/c94266ef81312ec1fc55031d359fa049.gif);
+  }
+  
+  #section2 {
+    height: 600px;
+    background-image: url(https://i.pinimg.com/originals/05/f1/7d/05f17d6e87ad18f65940f896f4cf11a4.gif);
+  }
